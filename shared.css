@@ -1,0 +1,62 @@
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 15px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.main-header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.brand_logo{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 116px);
+}
+
+.main-nav-links{
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.main-nav-link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav-link > a{
+    text-decoration: none;
+    color: #0e4f1f;
+}
+
+.main-nav-link-cta > a{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.main-nav-link > a:hover{
+    color: #ffffff;
+    border-bottom: 2px #ffffff solid;
+}
+
+.main-nav-link-cta > a:hover{
+    color: red;
+    background-color: #ffffff;
+    border: none;
+}

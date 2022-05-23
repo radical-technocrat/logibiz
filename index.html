@@ -4,92 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogBiz</title>
-    <link rel="stylesheet" href="/style.css" type="text/css">
+    <title>Packages</title>
+    <link rel="favicon.png" href="/favicon.png">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="/packages/packaged.css">
 </head>
 <body>
+    <div class="background"></div>
     <header class="main-header">
-             <div>
-                 <a  class="brand-logo"  href="index.html">LogBliz</a>
-             </div>
+        <div>
+            <a href="../index.html" class="header_brand"> LogiBiz </a>
+        </div>
         <nav class="main-nav">
-<ul  class="main-nav-link">
-    <li class="main-nav-link">
-        <a href="">customer</a>
-    </li>
-    <li class="main-nav-link">
-        <a href="">Packages</a>
-    </li>
-    <li class="main-nav-link">
-        <a href="">Join Now</a>
-    </li>
-    
-</ul>
+            <ul class="main-nav-links">
+                <li class="main-nav_link">
+                    <a href="#">Packages</a>
+                </li>
+                <li class="main-nav_link">
+                    <a href="/customers/index.html">Customers</a>
+                </li>
+                <li class="main-nav-link main-nav-link-cta">
+                    <a href="join-now/index.html">Join Now</a>
+                </li>
+            </ul>
         </nav>
     </header>
-  <main>
-      <div class="overview">
-          <h1> Greater Logistics</h1>
-      </div>
-<div class="plan">
-    <h2>Choose A plan</h2>
-    <div>
-        <article class="plan">
-<h2 class="plan-title">FREE</h2>
-<H3 class="plan-price">$8/month</H3>
-<H3 >For small deliveries</H3>
-<ul class="plan-features">
-    <li>5 riders</li>
-    <li>lorem ipsum</li>
-    <li>lorem ipsum</li>
-    <li>lorem ipsum</li>
-</ul>
-<button>CHOOSE PLAN</button>
-        </article>
-        <artice class="plan-plan-highlighted">
-            <h2 class="plan-title">PLUS</h2>
-            <H3 class="plan-price">$29/month</H3>
-            <H3 >For medium deliveries</H3>
-            <ul class="plan-features">
-                <li>5 riders</li>
-                <li>lorem ipsum</li>
-                <li>lorem ipsum</li>
-                <li>lorem ipsum</li><BR>
-<button>CHOOSE PLAN</button>
-        </artice>
-
-        <artice class="plan plan-elevated">
-            <h2 class=" plan-title ">PREMIUM</h2>
-            <H3 class="plan-price">$99/month</H3>
-            <H3>For medium deliveries</H3>
-            <ul class="plan-features">
-                <li>5 riders</li>
-                <li>Divider</li>
-                <li>lorem ipsum</li>
-                <li>lorem ipsum</li>
-                </ul>
-                <button>CHOOSE PLAN</button>
-        </artice>
-    </div>
-</div>
-<div class="overview">
-    <h1>Greatest Reasons to Stick Around</h1>
-    <ul>
-        <li>
-            <div></div>
-            <p>830,000 Trusting Customers</p>
-        </li>
-        
-        <li>
-            <div></div>
-            <p>99% uptime guarantee</p>
-        </li>
-        <li>
-            <div></div>
-            <p>Reliable riders</p>
-        </li>
-    </ul>
-</div>
-  </main>  
+    <main>
+        <section class="package" id="free">
+            <a href="#">
+                <h1 class="package-title">Our FREE Plan</h1>
+                <h2 class="package-subtitle">An extremely solid start into our logistic world.</h2>
+                <p class="package-info">Get started immediately at zero cost!</p>
+            </a>
+        </section>
+        <section class="package" id="plus">
+            <a href="#">
+                <h1 class="package-title">Our PLUS Plan</h1>
+                <h2 class="recommended">RECOMMENDED</h2>
+                <h2 class="package-subtitle">The most popular choice of our customers.</h2>
+                <p class="package-info">Benefit from increased delivery speed and uptime rating</p>
+            </a>
+        </section>
+        <div class="clearfix"></div>
+        <section class="package" id="premium">
+            <a href="#">
+                <h1 class="package-title">Our PREMIUM Plan</h1>
+                <h2 class="package-subtitle">All your logistics needs. Instant support, guaranteed uptime. </h2>
+                <p class="package-info">The best solution for small to large enterprises. Because delivery shouldn't be in the way!</p>
+            </a>
+        </section>
+    </main>
 </body>
 </html>
